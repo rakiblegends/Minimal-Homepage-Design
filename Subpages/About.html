@@ -1,0 +1,280 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+	
+	<title>Table - Clean & Clear</title>
+
+   
+	
+			<!--Botstrap CSS-->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+			<!--Custom Css-->
+			<link rel="stylesheet" href="css/custom.css" type="text/css"/>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	<!--Jquery-->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" type="text/javascript"></script>
+	
+
+  </head>
+  
+  
+  <body>
+	
+  
+	<nav class="navbar navbar-default navbar-fixed-top bal">
+		<div class="top-bar"></div>
+			<div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html">
+		<img src="img/logo.png" alt="Clean & Clear"/>
+		</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="../index.html">Home <span class="sr-only">(current)</span></a></li>
+        <li class="active"><a href="About.html">Table</a></li>
+        
+		<li><a href="Blog.html">Bootstrap</a></li>
+		<li><a href="Contact.html">Contact</a></li>
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+	  <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-success">
+			<i class="glyphicon glyphicon-search"></i>
+		</button>
+      </form>
+        <li><a class="login" data-toggle="modal" data-target="#loginModal" href="#">Login</a></li>
+		<li><a class="signup" data-toggle="modal" data-target="#regModal" href="#">Sign Up</a></li>
+        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+
+														<!--End of Navbar-->
+														<!--Log In Modal -->
+									<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel">
+									  <div class="modal-dialog" role="document">
+										<div class="modal-content">
+										  <div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+											<h4 class="modal-title" id="loginModalLabel">Login Form</h4>
+										  </div>
+										  <div class="modal-body">
+											<form class="form-horizontal">
+														  <div class="form-group">
+															<label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+															<div class="col-sm-10">
+															  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+															</div>
+														  </div>
+														  <div class="form-group">
+															<label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+															<div class="col-sm-10">
+															  <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+															</div>
+														  </div>
+														  <div class="form-group">
+															<div class="col-sm-offset-2 col-sm-10">
+															  <div class="checkbox">
+																<label>
+																  <input type="checkbox"> Remember me
+																</label>
+															  </div>
+															</div>
+														  </div>
+														  
+														</form>
+										  </div>
+										  <div class="modal-footer">
+											<button type="button" class="btn btn-default" data-dismiss="modal">Sign In</button>
+											
+										  </div>
+										</div>
+									  </div>
+									</div>		
+
+															<!--Sign Up Modal-->
+					<div class="modal fade" id="regModal" tabindex="-1" role="dialog" aria-labelledby="regModalLabel">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+									</button>
+									<h4 class="modal-title" id="regModalLabel">Sign Up Form</h4>
+								</div>
+								<div class="modal-body">
+									<form class="form-horizontal">
+								  <div class="form-group">
+									<label for="inputEmail3" class="col-sm-2 control-label">First Name</label>
+									<div class="col-sm-10">
+									  <input type="text" class="form-control" id="inputEmail3" placeholder="Enter your First Name">
+									</div>
+								  </div>
+								  <div class="form-group">
+									<label for="inputEmail3" class="col-sm-2 control-label">Last Name</label>
+									<div class="col-sm-10">
+									  <input type="text" class="form-control" id="inputEmail3" placeholder="Enter your Last Name">
+									</div>
+								  </div>
+								  <div class="form-group">
+									<label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+									<div class="col-sm-10">
+									  <input type="email" class="form-control" id="inputEmail3" placeholder="Email Here">
+									</div>
+								  </div>
+								  <div class="form-group">
+									<label for="inputEmail3" class="col-sm-2 control-label">Birth Date</label>
+									<div class="col-sm-10">
+									  <input type="text" class="form-control" id="inputEmail3" placeholder="DD/MM/YY">
+									</div>
+								  </div>
+								  <div class="form-group">
+									<label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+									<div class="col-sm-10">
+									  <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+									</div>
+								  </div>
+								  <div class="form-group">
+									<label for="inputPassword3" class="col-sm-2 control-label">Confirm Password</label>
+									<div class="col-sm-10">
+									  <input type="password" class="form-control" id="inputPassword3" placeholder="Confirm Password">
+									</div>
+								  </div>
+								  
+								  
+					</form>
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Sign Up</button>
+					
+				  </div>
+				</div>
+			  </div>
+			</div>
+														
+				<div class="container">
+					<div class="row pad-top-30">
+						<div class="col-md-8">
+							
+								<div class="well">
+										<h3 style="text-align:center; color:blue;">Table of Spending my Time</h3><br>
+									<table class="table table-bordered">
+										<thead>
+										  <tr>
+											<th>Name/Sub</th>
+											<th>SpendTime/day</th>
+											<th>Should SpendTime/day</th>
+											<th>Description</th>
+										  </tr>
+										</thead>
+										<tbody>
+										  <tr>
+											<td>Facebook</td>
+											<td>3 hours</td>
+											<td>30 minutes</td>
+											<td>It's look like i can't live a day without log into Facebook.</td>
+										  </tr>
+										  <tr>
+											<td>Youtube</td>
+											<td>1:30 hours</td>
+											<td>45 minutes</td>
+											<td>Usually i watch music and funny things in Youtube. So i should leave this and i have to use Youtube for learn something.</td>
+										  </tr>
+										  <tr>
+											<td>Twitter</td>
+											<td>10-15 minutes</td>
+											<td>10-15 minutes</td>
+											<td>I don't know how to use twitter so daily i log into it and they show me some pictures and then i come out from it.</td>
+										  </tr>
+										  <tr>
+											<td>Study</td>
+											<td>10-15 minutes</td>
+											<td>2-3 hours</td>
+											<td>Actually i don't study every day. Normally after 1 week i open the book and read for 2 hours. So that's way average it become 17 minutes per day.</td>
+										  </tr>
+										  <tr>
+											<td>Gaming</td>
+											<td>0 minutes</td>
+											<td>0 minutes</td>
+											<td>It's boring to play game on android phone or laptop. I just hate it. Currently i haven't installed any game in my Android Phone.</td>
+										  </tr>
+										  <tr>
+											<td>Gossiping</td>
+											<td>4 hours</td>
+											<td>1 hours</td>
+											<td>Gossiping much more with my friends become a habit of mine. Actually i don't want to do that but i can't leave it.</td>
+										  </tr>
+										  <tr>
+											<td>Watch Movie</td>
+											<td>4-5 per weeks</td>
+											<td>1 per weeks</td>
+											<td>I have to leave this habit as soon as i can. It's taking my time by pressure..... :-D</td>
+										  </tr>
+										</tbody>
+									 </table>
+								</div>
+							
+						</div>
+						<div class="col-md-4">
+						
+						<div class="list-group">
+							<a href="../index.html" class="list-group-item">Home</a>
+							<a href="About.html" class="list-group-item active">Table</a>
+							<a href="Blog.html" class="list-group-item">Bootstrap</a>
+							<a href="Contact.html" class="list-group-item">Contact</a>
+							
+						</div>
+						<div class="well">
+							<h3>Quick Contact</h3>
+							<p>Please use the form below to contact me</p>
+							<br>
+							<form>
+									  <div class="form-group">
+										<label for="exampleInputEmail1">Name</label>
+										<input type="Text" class="form-control" id="exampleInputEmail1" placeholder="Name">
+									  </div>
+									  <div class="form-group">
+										<label for="exampleInputEmail1">Email address</label>
+										<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+									  </div>
+									  <div class="form-group">
+										<label for="exampleInputPassword1">Message</label>
+											<textarea placeholder="Text Here" class="form-control" rows="3"></textarea>
+										
+										
+									  </div>
+									 
+									  <button type="submit" class="btn btn-default">Send</button>
+								</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<footer>
+				Copyright &copy; 2018 by Rakib Hossain
+			</footer>
+			
+	</body>
+	</html>

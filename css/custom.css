@@ -1,0 +1,166 @@
+body{
+	margin-top:50px;
+}
+
+.pad-top-10{padding-top:10px;}
+.pad-top-20{padding-top:20px;}
+.pad-top-30{padding-top:30px;}
+
+.top-bar{
+    height:5px;
+    background-color:#ca2129;
+    margin-bottom:1px;
+}
+
+.navbar{
+	margin-bottom:1px;
+}
+
+.navbar li:hover{
+	background:#e7e7e7;
+}
+
+.login{
+	background:black;
+}
+
+.signup{
+	background:#7e4e5e;
+}
+
+.jumbotron{
+	background:url(../img/waterdrop.jpg) no-repeat 50% 0;
+	height:350px;
+	padding:0;
+}
+
+.jumbotron-content{
+	margin-top:70px;
+	color:white;
+	padding-left:5px;
+	
+}
+
+.jumbotron-content h1{
+	font-size:34px;
+	border-bottom:1px solid white;
+	padding-bottom:10px;
+}
+.bluebox{
+	background-color:blue;
+	color:#fff;
+	height:230px;
+	overflow:hidden;
+	font-size:120%;
+	padding:7px 5px;
+	border:1px solid blue;
+	border-radius:5px;
+}
+
+.redbox{
+	background-color:red;
+	color:#fff;
+	height:230px;
+	overflow:hidden;
+	font-size:120%;
+	padding:7px 5px;
+	border:1px solid red;
+	border-radius:5px;
+}
+
+.greenbox{
+	background-color:green;
+	color:#fff;
+	height:230px;
+	overflow:hidden;
+	font-size:120%;
+	padding:7px 5px;
+	border:1px solid green;
+	border-radius:5px;
+}
+
+
+.btn-danger{
+	position:absolute;
+	bottom:15px;
+}
+.btn-danger:hover{
+	background:violet;
+}
+.btn-info{
+	position:absolute;
+	bottom:15px;
+}
+.btn-info:hover{
+	background:violet;
+}
+
+
+.btn-primary{
+	position:absolute;
+	bottom:15px;
+}
+.btn-primary:hover{
+	background:violet;
+}
+
+.media-body{
+	font-size:120%;
+}
+.panel-primary > .panel-heading{
+	background:#2e98cc;
+	color:#fff;
+}
+
+
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover{
+	background:red;
+	border:red solid 1px;
+}
+
+.violet-list .list-group-item,.violet-list .list-group-item:focus,.violet-list .list-group-item:hover{
+	background:blue;
+	border:blue solid 1px;
+}
+
+
+#tooltip1{
+	color:#ffffff;
+	border-bottom:dotted 1px black;
+	padding-bottom:2px;
+}
+
+#tooltip1:hover{
+	text-decoration:none;
+	color:black;
+}
+
+iframe.gmap{
+	width:100%;
+	border:1px solid #cccccc;
+	border-radius:10px;
+}
+
+.table-border{
+	border:3px solid red;
+	border-radius:5px;
+	
+}
+
+footer{
+	text-align:center;
+	background:#e7e7e7;
+	padding:20px 0;
+	font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+

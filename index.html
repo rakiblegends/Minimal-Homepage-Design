@@ -1,0 +1,324 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+	
+	<title>Home -Clean & Clear</title>
+
+   
+	
+			<!--Botstrap CSS-->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+			<!--Custom Css-->
+			<link rel="stylesheet" href="css/custom.css" type="text/css"/>
+		
+			<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" type="text/javascript"></script>
+			
+				<!--Bootstrap JS-->
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+			
+	
+
+		
+
+  </head>
+  
+  
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+	
+  
+	<nav class="navbar navbar-default navbar-fixed-top bal">
+		<div class="top-bar"></div>
+			<div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">
+		<img src="img/logo.png" alt="Clean & Clear"/>
+		</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="Subpages/About.html">Table</a></li>
+		 <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#About_Me">About Rakib</a></li>
+            <li><a href="#About_family">About his Family</a></li>
+            <li><a href="#About_friends">About his Friends</a></li>
+           
+          </ul>
+        </li>
+		<li><a href="Subpages/Blog.html">Bootstrap</a></li>
+		<li><a href="Subpages/Contact.html">Contact</a></li>
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+	  <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-success">
+			<i class="glyphicon glyphicon-search"></i>
+		</button>
+      </form>
+        <li><a class="login" data-toggle="modal" data-target="#loginModal" href="#">Login</a></li>
+		<li><a class="signup" data-toggle="modal" data-target="#regModal" href="#">Sign Up</a></li>
+        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+																<!--End of Navbar-->
+																
+																<!--Log In Modal -->
+									<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel">
+									  <div class="modal-dialog" role="document">
+										<div class="modal-content">
+										  <div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+											<h4 class="modal-title" id="loginModalLabel">Login Form</h4>
+										  </div>
+										  <div class="modal-body">
+											<form class="form-horizontal">
+														  <div class="form-group">
+															<label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+															<div class="col-sm-10">
+															  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+															</div>
+														  </div>
+														  <div class="form-group">
+															<label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+															<div class="col-sm-10">
+															  <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+															</div>
+														  </div>
+														  <div class="form-group">
+															<div class="col-sm-offset-2 col-sm-10">
+															  <div class="checkbox">
+																<label>
+																  <input type="checkbox"> Remember me
+																</label>
+															  </div>
+															</div>
+														  </div>
+														  
+														</form>
+										  </div>
+										  <div class="modal-footer">
+											<button type="button" class="btn btn-default" data-dismiss="modal">Sign In</button>
+											
+										  </div>
+										</div>
+									  </div>
+									</div>		
+
+															<!--Sign Up Modal-->
+					<div class="modal fade" id="regModal" tabindex="-1" role="dialog" aria-labelledby="regModalLabel">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+									</button>
+									<h4 class="modal-title" id="regModalLabel">Sign Up Form</h4>
+								</div>
+								<div class="modal-body">
+									<form class="form-horizontal">
+								  <div class="form-group">
+									<label for="inputEmail3" class="col-sm-2 control-label">First Name</label>
+									<div class="col-sm-10">
+									  <input type="text" class="form-control" id="inputEmail3" placeholder="Enter your First Name">
+									</div>
+								  </div>
+								  <div class="form-group">
+									<label for="inputEmail3" class="col-sm-2 control-label">Last Name</label>
+									<div class="col-sm-10">
+									  <input type="text" class="form-control" id="inputEmail3" placeholder="Enter your Last Name">
+									</div>
+								  </div>
+								  <div class="form-group">
+									<label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+									<div class="col-sm-10">
+									  <input type="email" class="form-control" id="inputEmail3" placeholder="Email Here">
+									</div>
+								  </div>
+								  <div class="form-group">
+									<label for="inputEmail3" class="col-sm-2 control-label">Birth Date</label>
+									<div class="col-sm-10">
+									  <input type="text" class="form-control" id="inputEmail3" placeholder="DD/MM/YY">
+									</div>
+								  </div>
+								  <div class="form-group">
+									<label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+									<div class="col-sm-10">
+									  <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+									</div>
+								  </div>
+								  <div class="form-group">
+									<label for="inputPassword3" class="col-sm-2 control-label">Confirm Password</label>
+									<div class="col-sm-10">
+									  <input type="password" class="form-control" id="inputPassword3" placeholder="Confirm Password">
+									</div>
+								  </div>
+								  
+								  
+					</form>
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Sign Up</button>
+					
+				  </div>
+				</div>
+			  </div>
+			</div>
+
+	<div class="jumbotron">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7 col-md-offset-5">
+					<div class="jumbotron-content">
+						<h1>Boost Up Your Skill Challenge</h1>
+						<p class="lead">This website is for Boost Up Your Skill Challenge. Here you will find Three things.<br> These Are : About Mine, My Hobby, Table of spending my time & some useless page. </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+															<!--End of Jumbotron-->
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="bluebox">
+							<h3><span class="glyphicon glyphicon-thumbs-up"></span> Describe what i like...</h3>
+							<p>I like to watch <a href="#" id="tooltip1" data-toogle="tooltip" title="Specially South Indian and Hollywood!">Movie</a> Mostly. Also i like to watch funny video in youtube. In youtube usually i watch video about life hack and some parody music.</p>
+							<a class="btn btn-danger" href="#">Read More</a>
+						</div>
+					</div>
+			
+					<div class="col-md-4">
+						<div class="redbox">
+							<h3><span class="glyphicon glyphicon-eye-open"></span> Describe My Aim...</h3>
+							<p>My Aim is to be a Complete Front End & Back End Web Developer. And absolutely to be an <a href="#" id="tooltip1" data-toogle="tooltip" title="Electronics Engineer">Engineer</a></p>
+							<a class="btn btn-info" href="#">Read More</a>
+						</div>
+					</div>
+					
+					<div class="col-md-4">
+						<div class="greenbox">
+							<h3><span class="glyphicon glyphicon-glass"></span> Describe what i like to eat...</h3>
+							<p>Usually i eat everything what can eatable by a man. These are i mostly like to eat.</p>
+								<ol>
+									
+									<li>Chicken</li>
+									<li>Biriyani</li>
+								</ol>
+							<a class="btn btn-primary" href="#">Read More</a>
+						</div>
+					</div>
+				</div>
+				
+															<!--End of Learn,Create,Freelance-->
+				
+				<div class="row pad-top-30">
+					<div class="col-md-8">
+						<div class="panel panel-default panel-primary">
+							<div id="About_Me"  class="panel-heading">
+								<h3 class="panel-title">About Me, My Family & My Friends.</h3>
+							</div>
+							<div  class="panel-body">
+								<div class="media">
+									<a class="pull-left" href="#">
+										<img style="height:220px; width:240px;" class="media-object img-circle" src="img/small1.jpg" alt="small"/>
+									</a>
+									<div id="About_family" class="media-body">
+										<h3 class="media-heading">About Rakib Hossain...</h3>
+										<p>Okay! He is just a kid and student also. Now days he is trying to understand the meaning of life. Few days ago he taught that, "life is about finding himself". But when he find a book name <code>Recharge Your Down Battery.</code> His mind have changed. Cause he find a quote from there. It is "<b>Life isn't about finding yourself, it's about creating yourself.</b>" So, Now he is trying to creating himself. </p>
+									</div>
+								</div>
+								<br>
+																
+								<div class="media">
+									<a class="pull-left" href="#">
+										<img style="height:220px; width:240px;" class="media-object img-circle" src="img/small2.jpg" alt="small"/>
+									</a>
+									<div class="media-body">
+										<h3 class="media-heading">About his Family...</h3>
+										<p>His family consists of his mother, father and little sister.</p>
+										
+										<p>Beginning with his mother, she is like any other mom. Loving, caring, and concerned to all family member. She loves to cook. She is the anchor of their house and is definitely the driving force for their family!</p>
+										
+										<p>His father is the cornerstone of their family. He is responsible for all the discipline in their house. Professionally he is a mason. He loves all of them and holds himself responsible for their family's well being.Rakib's inspiration is his dad.</p>
+										
+										<p>The mischievous, little one in their family is his little sister. She is blessed with a smile of an angel, she too has got the touch of her mom. She is indeed the little demon of their house.</p>
+									</div>
+								</div>
+								<br>
+																				
+								<div id="About_friends" class="media">
+									<a class="pull-left" href="#">
+										<img style="height:220px; width:240px;" class="media-object img-circle" src="img/Small3.jpg" alt="small"/>
+									</a>
+									<div class="media-body">
+										<h3 class="media-heading">About his Friends...</h3>
+										<p>If i would have to say properly about his friends you can't find the end of this form. His friends are really so awesome.They really help him if he wants to do something. If you would ask Rakib to say some of his friends Name. Rakib will say <b>"I won't tell their name... If i do that, i will lose my job.... :-P"</b></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+								<!--Side Bar-->
+					<div class="col-md-4">
+						<div class="list-group">
+							<a href="index.html" class="list-group-item active">Home</a>
+							<a href="Subpages/About.html" class="list-group-item">Table</a>
+							<a href="Subpages/Blog.html" class="list-group-item">Bootstrap</a>
+							<a href="Subpages/Contact.html" class="list-group-item">Contact</a>
+							
+							
+						</div>
+						<div class="well">
+							<h3>Quick Contact</h3>
+							<p>Please use the form below to contact me</p>
+							<br>
+							<form>
+									  <div class="form-group">
+										<label for="exampleInputEmail1">Name</label>
+										<input type="Text" class="form-control" id="exampleInputEmail1" placeholder="Name">
+									  </div>
+									  <div class="form-group">
+										<label for="exampleInputEmail1">Email address</label>
+										<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+									  </div>
+									  <div class="form-group">
+										<label for="exampleInputPassword1">Message</label>
+											<textarea placeholder="Text Here" class="form-control" rows="3"></textarea>
+										
+										
+									  </div>
+									 
+									  <button type="submit" class="btn btn-default">Send</button>
+								</form>
+								
+						</div>
+					</div>
+				</div>
+			</div>	
+			<footer>
+				Copyright &copy; 2018 by Rakib Hossain
+			</footer>
+
+  </body>
+</html>
